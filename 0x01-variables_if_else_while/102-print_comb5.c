@@ -26,11 +26,11 @@ putchar('0' + j % 10);
 
 if (i != 98 || j != 99)
 break;
-			putchar(',');
-			putchar(' ');
-		}
-	}
-	putchar('\n');
+putchar(',');
+putchar(' ');
+}
+}
+putchar('\n');
 return (0);
 }
 
